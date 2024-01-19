@@ -19,12 +19,12 @@ Follow these steps to get the project up and running on your local machine:
 1. **Clone the Repository:**
    
    ```
-   git clone https://github.com/your-username/react-markdown-previewer.git
+   git clone https://github.com/rvif/markdown-previewer.git
    ```
 2. **Navigate to the Project Directory:**
 
    ```
-   cd react-markdown-previewer
+   cd markdown-previewer
    ```
 3. **Install Dependencies:**
 
