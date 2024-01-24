@@ -93,7 +93,7 @@ class Markdown extends React.Component {
   }
   render() {
     return (
-      <div className="markdown-previewer w-full min-h-screen bg-blue-200 flex flex-col items-center">
+      <div className="markdown-previewer w-full min-h-screen bg-blue-200 flex flex-col items-center overflow-x-hidden">
         <div
           className="editor mt-4 md:w-[570px] sm:w-[400px] w-[300px]"
           style={{ display: this.state.fullscrPreview ? "none" : "block" }}
@@ -120,7 +120,7 @@ class Markdown extends React.Component {
           </div>
         </div>
         <div
-          className="previewer my-4 md:w-[750px] sm:w-[600px] w-[440px]"
+          className="previewer my-4 md:w-[750px] sm:w-[600px] w-[350px]"
           style={{ display: this.state.fullscrEditor ? "none" : "block" }}
         >
           <div className="shadow-xl flex align-center justify-between text-white px-2 pt-1 mb-[1px] font-fira previewer-title bg-[#581c87] h-8 border-black border-solid border-[1px]">
